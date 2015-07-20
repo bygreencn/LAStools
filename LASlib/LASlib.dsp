@@ -472,5 +472,9 @@ SOURCE=..\LASzip\src\laszip_common_v2.hpp
 SOURCE=..\LASzip\src\mydefs.hpp
 # End Source File
 # End Group
+# Begin Source File
+
+SOURCE=.\example\lasexample.dsp
+# End Source File
 # End Target
 # End Project
