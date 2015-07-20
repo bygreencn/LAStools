@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LASzip", "LASzip.vcxproj", "{3FCC9022-70A5-3928-FD93-450B604FF750}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "laszipdllexample", "example\laszipdllexample.vcxproj", "{A6AC401E-6108-156A-EFD3-7AAD35857A0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FCC9022-70A5-3928-FD93-450B604FF750} = {3FCC9022-70A5-3928-FD93-450B604FF750}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "laszippertest", "example\laszippertest.vcxproj", "{A4606555-2445-F360-F8CD-0E10BA3CBB0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FCC9022-70A5-3928-FD93-450B604FF750} = {3FCC9022-70A5-3928-FD93-450B604FF750}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Template|Win32 = Template|Win32
+		Template|x64 = Template|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Debug|Win32.Build.0 = Debug|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Debug|x64.ActiveCfg = Debug|x64
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Debug|x64.Build.0 = Debug|x64
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Release|Win32.ActiveCfg = Release|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Release|Win32.Build.0 = Release|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Release|x64.ActiveCfg = Release|x64
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Release|x64.Build.0 = Release|x64
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Template|Win32.ActiveCfg = Release|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Template|Win32.Build.0 = Release|Win32
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Template|x64.ActiveCfg = Release|x64
+		{3FCC9022-70A5-3928-FD93-450B604FF750}.Template|x64.Build.0 = Release|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Debug|Win32.Build.0 = Debug|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Debug|x64.ActiveCfg = Debug|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Debug|x64.Build.0 = Debug|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Release|Win32.ActiveCfg = Release|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Release|Win32.Build.0 = Release|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Release|x64.ActiveCfg = Release|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Release|x64.Build.0 = Release|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Template|Win32.ActiveCfg = Template|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Template|Win32.Build.0 = Template|Win32
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Template|x64.ActiveCfg = Template|x64
+		{A6AC401E-6108-156A-EFD3-7AAD35857A0C}.Template|x64.Build.0 = Template|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Debug|Win32.Build.0 = Debug|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Debug|x64.ActiveCfg = Debug|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Debug|x64.Build.0 = Debug|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Release|Win32.ActiveCfg = Release|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Release|Win32.Build.0 = Release|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Release|x64.ActiveCfg = Release|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Release|x64.Build.0 = Release|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Template|Win32.ActiveCfg = Template|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Template|Win32.Build.0 = Template|Win32
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Template|x64.ActiveCfg = Template|x64
+		{A4606555-2445-F360-F8CD-0E10BA3CBB0E}.Template|x64.Build.0 = Template|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
